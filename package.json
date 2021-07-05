@@ -5,6 +5,7 @@
   "engines": {
     "node": ">= 14.16 <15"
   },
+  "main": "build/src/main.js",
   "devDependencies": {
     "@types/jest": "~26.0.23",
     "@types/node": "~14.14.45",
@@ -30,7 +31,7 @@
     "test": "jest --coverage",
     "test:watch": "jest --watch"
   },
-  "author": "Jakub Synowiec <github@jakubsynowiec.info>",
+  "author": "Anthony Bullard <anthony.bullard@gmail.com>",
   "license": "Apache-2.0",
   "dependencies": {
     "tslib": "~2.2.0"
